@@ -25,3 +25,4 @@ replay_pid*
 nbactions.xml
 Jenkinsfile.groovy
 nb-configuration.xml
+target/
