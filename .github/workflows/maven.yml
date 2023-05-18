@@ -44,7 +44,7 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
 
       - name: Build with Maven
-        run: mvn install -dskipTests=true
+        run: mvn install -DskipTests=true
         
       - name: Test with Maven
         run: mvn surefire:test -DgitLabServer=https://google.com -DgitLabToken=token -DgitLabProjectId=1000
